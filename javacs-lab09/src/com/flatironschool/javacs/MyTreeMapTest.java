@@ -88,6 +88,7 @@ public class MyTreeMapTest {
 	 */
 	@Test
 	public void testGet() {
+        System.out.println(map.toString());
 		assertThat(map.get("01"), is(1));
 		assertThat(map.get("03"), is(3));
 		assertThat(map.get("04"), is(4));
